@@ -239,6 +239,7 @@ panorama16.addEventListener( 'enter-fade-start', function(){
 radius = 1500;
 var loader = new THREE.FontLoader();
 var info_p2_1;
+
 loader.load( './fonts/tbi.json', onFontLoaded );
 function onFontLoaded ( _font ) {
         font = _font;
@@ -260,6 +261,7 @@ info_p5_1.position.set( -2519.86, -2234.82, 3687.60 );
 info_p5_1.addHoverElement( document.getElementById( 'desc-p5_1' ), 200 );
 panorama5.add( p5_t1 );
 panorama5.add( info_p5_1 );
+
 }
 
 function createLabel(text='', angle=0, height=0)
