@@ -238,7 +238,7 @@ panorama16.addEventListener( 'enter-fade-start', function(){
 
 radius = 1500;
 var loader = new THREE.FontLoader();
-var info_p2_1;
+var info_p2_1, info_p6_1, info_p8_1, info_p9_1, info_p9_2, info_p10_1, info_p11_1, info_p13_1_1, info_p13_1_2, info_p13_2_1, info_p13_4_1, info_p13_4_2, info_p13_4_3, info_p13_4_4, info_p14_1_1, info_p14_1_2, info_p14_1_3, info_p15_2_1, info_p15_2_2;
 
 loader.load( './fonts/tbi.json', onFontLoaded );
 function onFontLoaded ( _font ) {
